@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0px"
+            android:layout_height="150dp"
+            android:layout_weight="0.5"
+            android:onClick="goRandomNumber"
+            android:text="Numeros al Azar"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0px"
+            android:layout_height="150dp"
+            android:layout_weight="0.5"
+            android:onClick="goRandomLetter"
+            android:text="Letras al azar"  />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0px"
+            android:layout_height="150dp"
+            android:layout_weight="0.5"
+            android:onClick="goRandomString"
+            android:text="Cadenas al azar" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0px"
+            android:layout_height="150dp"
+            android:layout_weight="0.5"
+            android:onClick="goDice"
+            android:text="Dado de 6 caras" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
